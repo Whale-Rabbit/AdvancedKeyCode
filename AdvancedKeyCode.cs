@@ -17,7 +17,7 @@ public class AdvancedKeyCode
             if (!Input.GetKey(key))
                 return false;
 
-        return true;
+        return used = true;
     }
 
     public bool GetKeyDown()
